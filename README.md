@@ -1,8 +1,8 @@
 # Tamagotchi
-Click a button to see how it effect's the pet's level in that category.
+Click a button to see how it effect's the pet's health/energy in that category.
 
 ## Screenshots
-![image of sorting hat](https://raw.githubusercontent.com/GitMullins/sorting-hat/master/screenshot.png)
+![image of Tamagotchi](https://raw.githubusercontent.com/GitMullins/Tamagotchi/master/src/img/screenshot.png)
 
 ## Getting Started
 ```
