@@ -26,12 +26,13 @@ const unHealthyEats = () => {
 };
 
 const domStringBuilder = () => {
-  domString += '<button id="healthyFood">Eat good</button>';
-  domString += '<button id="unhealthyFood">Eat bad</button>';
+  domString += '<button type="button" id="healthyFood">Eat good</button>';
+  domString += '<button type="button" id="unhealthyFood">Eat bad</button>';
   domString += `<div id="full">${full}</div>`;
   util.printToDom('eat', domString);
   document.getElementById('healthyFood').addEventListener('click', healthyEats, false);
   document.getElementById('unhealthyFood').addEventListener('click', unHealthyEats);
+  util.printToDom('pet', '<img src="../../../img.jpg">');
 };
 
 export default { domStringBuilder };
