@@ -32,7 +32,7 @@ const domStringBuilder = () => {
   util.printToDom('eat', domString);
   document.getElementById('healthyFood').addEventListener('click', healthyEats, false);
   document.getElementById('unhealthyFood').addEventListener('click', unHealthyEats);
-  util.printToDom('pet', '<img src="../../../img.jpg">');
+  util.printToDom('pet', '<img src="../../../src/img/img.jpg">');
 };
 
 export default { domStringBuilder };
