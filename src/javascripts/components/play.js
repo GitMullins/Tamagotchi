@@ -8,8 +8,8 @@ function getSum(total, push) {
 }
 
 const superFun = () => {
-  if (fun.reduce(getSum) < 51) {
-    fun.push(50);
+  if (fun.reduce(getSum) < 91) {
+    fun.push(10);
     fun.reduce(getSum);
     const totalHealth = fun.reduce(getSum);
     document.getElementById('fun').innerHTML = totalHealth;
