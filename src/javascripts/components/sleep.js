@@ -8,8 +8,8 @@ function getSum(total, push) {
 }
 
 const nap = () => {
-  if (sleep.reduce(getSum) < 51) {
-    sleep.push(50);
+  if (sleep.reduce(getSum) < 96) {
+    sleep.push(5);
     sleep.reduce(getSum);
     const totalHealth = sleep.reduce(getSum);
     document.getElementById('rest').innerHTML = totalHealth;
@@ -17,8 +17,8 @@ const nap = () => {
 };
 
 const deepSlumber = () => {
-  if (sleep.reduce(getSum) < 41) {
-    sleep.push(60);
+  if (sleep.reduce(getSum) < 91) {
+    sleep.push(10);
     sleep.reduce(getSum);
     const totalHealth = sleep.reduce(getSum);
     document.getElementById('rest').innerHTML = totalHealth;
